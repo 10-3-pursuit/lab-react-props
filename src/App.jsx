@@ -3,6 +3,7 @@ import TopBar from "./Components/TopBar";
 import "./App.css";
 import DonationForm from "./Components/DonationForm";
 import Progress from "./Components/Progress";
+import RecentDonations from "./Components/RecentDonations";
 
 import getDonationTotal from "./helpers/helper";
 
@@ -45,7 +46,9 @@ function App() {
     <>
       <TopBar />
       <main className="container">
-        <section className="sidebar">{/* Recent Donations */}</section>
+        <section className="sidebar">
+          <RecentDonations donations={donations} />
+        </section>
         <section className="">
           <Progress target={targetAmount} total={getDonationTotal(donations)} />
           <DonationForm number={donations.length + 1} />
