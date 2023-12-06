@@ -1,4 +1,6 @@
-function RecentDonations({ donations }) {
+function RecentDonations(props) {
+  const { donations } = props;
+
   return (
     <section>
       <h2>Recent Donations</h2>

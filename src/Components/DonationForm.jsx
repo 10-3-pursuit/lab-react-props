@@ -1,7 +1,9 @@
-function DonationForm() {
+function DonationForm(props) {
+  const donateNumber = props.donations.length + 1;
+
   return (
     <section className="donation">
-      <h3>You could be donation <span className="secondary">#1!</span></h3>
+      <h3>You could be donation <span className="secondary">#{donateNumber}!</span></h3>
       <form>
         <label htmlFor="name">Name
           <input
