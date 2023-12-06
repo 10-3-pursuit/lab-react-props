@@ -1,4 +1,4 @@
-export default function TopBar() {
+function TopBar() {
   return (
     <header>
       <h1>
@@ -8,3 +8,5 @@ export default function TopBar() {
     </header>
   );
 }
+
+export default TopBar;
