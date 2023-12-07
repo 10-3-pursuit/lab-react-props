@@ -48,7 +48,7 @@ function App() {
           <RecentDonations donations={donations} />
         </section>
         <section>
-          <Progress donations={donations} targetAmount={targetAmount} /> {/* Fixed typo here */}
+          <Progress donations={donations} targetAmount={targetAmount} /> 
           <DonationForm donations={donations} />
         </section>
       </main>
