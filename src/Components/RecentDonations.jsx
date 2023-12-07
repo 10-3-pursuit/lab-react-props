@@ -8,15 +8,6 @@ export default function RecentDonations({ donations }) {
     </li>
   ));
 
-  // const amount = donations.map((donation) => (
-  //   <>
-  //     <li style={{ listStyle: "none", color: "green" }} key={donation.name}>
-  //       {donation.name} donated ${donation.amount}
-  //     </li>
-  //     <p>{donation.caption}</p>
-  //   </>
-  // ));
-  // // console.log(amount);
   return (
     <>
       <h2>Recent Donations</h2>
