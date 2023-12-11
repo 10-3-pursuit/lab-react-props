@@ -74,8 +74,30 @@ function App() {
           <ul>
             <ul>{"Raised $335 of $1000"}</ul>
             <ul>{"You could be donation #6!"}</ul>
+            </ul>
+            <ul>
+            <form class="name">
+            <label for="name">
+              {"Name"}</label>
+            <input type="text" id="word" name="word" required/>
+            {/* <button type="submit">search</button> */}
+            </form>
+            <form class="caption">
+            <label for="caption">
+              {"Caption"}</label>
+            <input type="text" id="word" caption="words" required/>
+            {/* <button type="submit">search</button> */}
+            </form>
+            <form class="amount">
+            <label for="amount">
+              {"Amount"}</label>
+            <input type="numbers" id="figures" name="numericals" required/>
+            {/* <button type="submit">search</button> */}
+            </form>
             <ul><button>Donate!</button></ul>
-          </ul>
+            </ul>
+            
+            
           
           <Progress totalDonations = {totalDonations}
           targetAmount = {targetAmount}/>
