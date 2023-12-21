@@ -79,10 +79,19 @@ header p {
   font-weight: 700;
 }
 
+
 /* Progress */
 .progress {
   margin-bottom: 25px;
 }
+
+.donation-form {
+  margin-top: 25px; 
+  position:relative;
+  left: 230px;
+  bottom: 480px;
+}
+
 
 .secondary {
   color: var(--secondary);
